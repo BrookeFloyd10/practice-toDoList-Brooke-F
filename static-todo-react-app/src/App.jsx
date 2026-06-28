@@ -1,15 +1,15 @@
 
 import './App.css'
+import Header from './components/Header'
 import ToDoList from './components/ToDoList'
 
 function App() {
-  const 
-
   return (
     <>
+    <Header />
     <ToDoList />
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;

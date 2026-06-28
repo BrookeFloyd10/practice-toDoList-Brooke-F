@@ -1,4 +1,10 @@
 const Header = () => {
-   return( <h1>To Do List</h1>
-   )
-}
+   return( 
+    <header>
+        <h2 id="headingText">Heading:</h2>
+        <h2>My To Do List</h2>
+    </header>
+   );
+};
+
+export default Header;
